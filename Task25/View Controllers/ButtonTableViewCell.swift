@@ -9,7 +9,7 @@
 import UIKit
 
 class ButtonTableViewCell: UITableViewCell {
-
+// points to the TablieViewController so it needs to be weak so it can be removed when not being used.
     var delegate: ButtonTableViewCellDeletgate?
     
     @IBOutlet weak var primaryLabel: UILabel!

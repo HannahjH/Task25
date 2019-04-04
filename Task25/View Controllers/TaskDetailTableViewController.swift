@@ -41,6 +41,7 @@ class TaskDetailTableViewController: UITableViewController {
     
     @IBAction func datePickerValueChanged(_ sender: UIDatePicker) {
         self.dueDateTextField.text = sender.date.stringValue()
+        self.dueDateValue = sender.date
     }
     
     @IBAction func userTappedView(_ sender: Any) {
